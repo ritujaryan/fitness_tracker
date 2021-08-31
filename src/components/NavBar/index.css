@@ -1,0 +1,53 @@
+html,
+body {
+  height: 100%;
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.content {
+  flex: 1 0 auto;
+  padding: 10px;
+}
+
+nav{
+  flex-shrink: 0;
+  
+  background: lightseagreen;
+  color: white;
+			width: 100%;
+			position: relative;
+            left: 0;
+            top: 0;
+      padding: 15px 0px;
+      font-size:25px;
+}
+
+.main-nav{
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+
+
+  
+}
+
+.main-nav-active{
+  color: black;
+}
+a.main1 :hover{
+  cursor: pointer;
+  color: greenyellow !important;
+}
+
+
